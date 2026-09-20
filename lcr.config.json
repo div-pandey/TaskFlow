@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "commands": {},
+  "workflows": {
+    "a": {
+      "steps": [
+        "lint",
+        "test",
+        "build"
+      ],
+      "stopOnFailure": true
+    }
+  }
+}

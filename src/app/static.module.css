@@ -1,0 +1,50 @@
+.pageContainer {
+  max-width: 800px;
+  margin: 6rem auto 8rem auto;
+  padding: 0 24px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
+}
+
+.lastUpdated {
+  font-size: 0.9rem;
+  color: var(--text-tertiary);
+  margin-bottom: 3rem;
+  display: block;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+.content h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.01em;
+}
+
+.content p {
+  margin-bottom: 1rem;
+}
+
+.content ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.content li {
+  margin-bottom: 0.5rem;
+}
